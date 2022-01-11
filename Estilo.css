@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, sans-serif;
+    
+}
+
+.row{
+    margin: 0;
+}
+#icone{
+    padding: 30px;
+}
+.container{
+    padding: 35px 0;
+}
+p, li{
+    color: #444;
+    font-size: 18px;
+}
+
+/* Barra de Navegação*/
+
+header, .navbar{
+    background-image: url(..//SiteAndre/img/barra.png);
+}
+#nav-conteiner {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#Logo{
+    width: 180px;
+    color: #fff;
+}
+.navbar-brand{
+    padding: 0;
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: #cac70f;
+}
+#navbar-links a {
+    color: #cac70f;
+}
+#navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1rem .5rem;
+}
+
+/* Sobre*/
+.container-fluid{
+    padding: 0;
+    
+}
+
+#about-area{
+    background-color: white;
+    border-bottom: 2px solid #cac70f;
+    border-top: 2px solid #cac70f;
+}
+.main-title{
+    color: #444;
+    margin: 50px 0 50px 0;
+    font-size: 40px;
+    text-align: center;    
+}
+
+/*.main-title::after{
+    content: "";
+    border-bottom: 2px solid #333;
+    width: 20%;
+    position: absolute;
+    top: 170px;
+    left: 40%;
+}*/
+
+
+.about-title{
+    font-size: 17px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
+.about-list li{
+    line-height: 30px;
+}
+#about-list i {
+    color: #cac70f;
+    margin-right: 15px;
+}
+
+/* Rodapé*/
+
+#contato-menu{
+    text-align: center;
+    border-bottom: 2px solid #cac70f;
+    
+}
+.contact-box{
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    
+}
+
+.contact-box i{
+    color: #444;
+    border: solid 1px #444;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.contact-box p{
+    font-size: 16px;
+}
+
+.contact-title{
+    font-weight: bold;
+    color: #1b1624;
+}
+
+/*Copy*/
+
+#copy-area{
+    background-color: #1b1624;
+
+}
+
+#copy-area .container{
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: bold;
+    
+}
+#copy-area .container p,a{
+    color: #cac70f;
+}
+
+/* Dicas*/
+#area-dicas{
+    border-bottom: 2px solid #cac70f;
+}
+.dicas-box{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.dicas-box i , .dicas-box h4{
+    transition: .5s;
+}
+
+.dicas-box i{
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #1b1624;
+}
+.dicas-box h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
